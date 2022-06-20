@@ -1,3 +1,2 @@
 # fullstack2022
-lörs lärä
-gsgsg
+ tehtävät löytyvät master branchista
