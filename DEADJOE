@@ -1,0 +1,215 @@
+
+*** These modified files were found in JOE when it aborted on Mon Jun 20 19:32:46 2022
+*** JOE was aborted by UNIX signal 1
+
+*** File '(Unnamed)'
+/m/home/home9/90/kaipaio1/unix/fullstack2022/.git/COMMIT_EDITMSG
+* Startup Log *
+* Shell 3 *
+
+*** File '/m/home/home9/90/kaipaio1/unix/fullstack2022/.git/COMMIT_EDITMSG'
+"testi"
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Committer: Kaipainen Oskari <kaipaio1@vdiubuntu060.org.aalto.fi>
+#
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   osa0/testi.txt
+#
+
+*** File '* Startup Log *'
+Processing '/etc/joe/editorrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc
+
+*** These modified files were found in JOE when it aborted on Mon Jun 20 19:32:46 2022
+*** JOE was aborted by UNIX signal 1
+
+*** File '(Unnamed)'
+/m/home/home9/90/kaipaio1/unix/fullstack2022/.git/COMMIT_EDITMSG
+* Startup Log *
+* Shell 3 *
+
+*** File '/m/home/home9/90/kaipaio1/unix/fullstack2022/.git/COMMIT_EDITMSG'
+"testi"
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Committer: Kaipainen Oskari <kaipaio1@vdiubuntu060.org.aalto.fi>
+#
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   osa0/testi.txt
+#
+
+*** File '* Startup Log *'
+Processing '/etc/joe/editorrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc
+
+*** These modified files were found in JOE when it aborted on Mon Jun 20 19:32:46 2022
+*** JOE was aborted by UNIX signal 1
+
+*** File '* Shell 3 *'
+
+Type joehelp for editor shell commands
+
+[44mkaipaio1@vdiubuntu060[m [1m[32m~/fullstack2022
+[1m[37m % [mgit push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+[44mkaipaio1@vdiubuntu060[m [1m[32m~/fullstack2022
+[1m[37m % [mgit status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   osa0/testi.txt
+
+[44mkaipaio1@vdiubuntu060[m [1m[32m~/fullstack2022
+[1m[37m % [mgit commit -m "testi"
+[master (root-commit) 8e5eb95] testi
+ Committer: Kaipainen Oskari <kaipaio1@vdiubuntu060.org.aalto.fi>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 osa0/testi.txt
+[44mkaipaio1@vdiubuntu060[m [1m[32m~/fullstack2022
+[1m[37m % [mgit push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+[44mkaipaio1@vdiubuntu060[m [1m[32m~/fullstack2022
+[1m[37m % [mgit push --set-upstream origin master
+The authenticity of host 'github.com (140.82.121.3)' can't be established.
+ECDSA key fingerprint is SHA256:p2QAMXNIC1TJYWeIOttrVc98/R1BUFWu3/LiyKgUfQM.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? 
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[44mkaipaio1@vdiubuntu060[m [1m[32m~/fullstack2022
+[1m[37m % [mgit remote add git@github.com:soppakulho/fullstack2022.git
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+[44mkaipaio1@vdiubuntu060[m [1m[32m~/fullstack2022
+[1m[37m % [m-f
+zsh: command not found: -f
+[44mkaipaio1@vdiubuntu060[m [1m[32m~/fullstack2022
+[1m[37m % [m--fetch
+zsh: command not found: --fetch
+[44mkaipaio1@vdiubuntu060[m [1m[32m~/fullstack2022
+[1m[37m % [mgit push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+[44mkaipaio1@vdiubuntu060[m [1m[32m~/fullstack2022
+[1m[37m % [mgit push -u origin
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+[44mkaipaio1@vdiubuntu060[m [1m[32m~/fullstack2022
+[1m[37m % [mgit push -u origin main
+error: src refspec main does not match any
+[31merror: failed to push some refs to 'git@github.com:soppakulho/fullstack2022.git'
+[44mkaipaio1@vdiubuntu060[m [1m[32m~/fullstack2022
+[1m[37m % [mgit status
+On branch master
+nothing to commit, working tree clean
+[44mkaipaio1@vdiubuntu060[m [1m[32m~/fullstack2022
+[1m[37m % [mls
+[1m[34mosa0[m/
+[44mkaipaio1@vdiubuntu060[m [1m[32m~/fullstack2022
+[1m[37m % [mcd osa0 [1m
+[44mkaipaio1@vdiubuntu060[m [1m[32m~/fullstack2022/osa0
+[1m[37m % 
+[44mkaipaio1@vdiubuntu060[m [1m[32m~/fullstack2022/osa0
+[1m[37m % [mls
+testi.txt
+[44mkaipaio1@vdiubuntu060[m [1m[32m~/fullstack2022/osa0
+[1m[37m % [mcd .
+[44mkaipaio1@vdiubuntu060[m [1m[32m~/fullstack2022/osa0
+[1m[37m % [mcd ..
+[44mkaipaio1@vdiubuntu060[m [1m[32m~/fullstack2022
+[1m[37m % 
+[44mkaipaio1@vdiubuntu060[m [1m[32m~/fullstack2022
+[1m[37m % [mgit pull
+The authenticity of host 'github.com (140.82.121.4)' can't be established.
+ECDSA key fingerprint is SHA256:p2QAMXNIC1TJYWeIOttrVc98/R1BUFWu3/LiyKgUfQM.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? no
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[44mkaipaio1@vdiubuntu060[m [1m[32m~/fullstack2022
+[1m[37m % 
+*** File '(Unnamed)'
+/m/home/home9/90/kaipaio1/unix/fullstack2022/.git/COMMIT_EDITMSG
+* Startup Log *
+* Shell 3 *
+/u/90/kaipaio1/unix/fullstack2022/osa0/
+/u/90/kaipaio1/unix/fullstack2022/osa0/
+/u/90/kaipaio1/unix/fullstack2022/
+
+*** File '/m/home/home9/90/kaipaio1/unix/fullstack2022/.git/COMMIT_EDITMSG'
+"testi"
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Committer: Kaipainen Oskari <kaipaio1@vdiubuntu060.org.aalto.fi>
+#
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   osa0/testi.txt
+#
+
+*** File '* Startup Log *'
+Processing '/etc/joe/editorrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc
